@@ -27,8 +27,8 @@ client.on("qr",(qr)=>{
     qrcode.generate(qr,{small:true})
 })
 client.initialize()
-client.on("group_join",async (x)=>{
-    inv=x.id.participant
+client.on("group_join", (x)=>{
+    x.reply(`${x.id.participant} se ha unido al grupo`)
 })
 client.on("group_leave",async (y)=>{
     leav=y.id.participant

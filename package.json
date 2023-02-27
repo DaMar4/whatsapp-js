@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-js-bot",
+  "version": "1.0.0",
+  "description": "un bot para whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Daniel Marin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaMar4/whatsapp-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaMar4/whatsapp-js/issues"
+  },
+  "homepage": "https://github.com/DaMar4/whatsapp-js#readme"
+}
